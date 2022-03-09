@@ -202,7 +202,6 @@ def aStarSearch(problem, heuristic=nullHeuristic):
 
     actions = {}
     frontier = util.PriorityQueue()
-
     goal = None
 
     actions[problem.getStartState()] = []
